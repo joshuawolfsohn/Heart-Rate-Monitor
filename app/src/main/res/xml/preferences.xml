@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ListPreference
+        android:defaultValue="65572"
+        android:entries="@array/hrm_type"
+        android:entryValues="@array/hrm_type_val"
+        android:key="hrm_type"
+        android:title="Heart rate sensor"
+        app:useSimpleSummaryProvider="true" />
+
+    <SeekBarPreference
+        android:defaultValue="10"
+        android:key="hrm_time"
+        android:max="30"
+        android:title="Measurement time (seconds)"
+        app:min="5"
+        app:showSeekBarValue="true" />
+
+
+</PreferenceScreen>

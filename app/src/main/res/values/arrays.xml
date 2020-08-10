@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="hrm_type">
+        <item>@string/ir</item>
+        <item>@string/red</item>
+        <item>@string/green</item>
+        <item>@string/blue</item>
+    </string-array>
+    <string-array name="hrm_type_val">
+        <item>65571</item>
+        <item>65572</item>
+        <item>65573</item>
+        <item>65574</item>
+    </string-array>
+</resources>
